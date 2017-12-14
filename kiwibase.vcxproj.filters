@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{bbe4289f-caaf-456b-8589-20999aefdfb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\structs">
+      <UniqueIdentifier>{17d27e1a-c0cf-4133-883c-1709479e1e35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\classes">
+      <UniqueIdentifier>{0c0bdd21-9cce-4b50-8b64-d0ef577f2f35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\structs\headers">
+      <UniqueIdentifier>{ebee3549-433e-46e1-87e1-8acfbcd4f0e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\structs\source">
+      <UniqueIdentifier>{8b62952f-e871-45f0-935a-34196bb1d8dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\utils">
+      <UniqueIdentifier>{23aa43b1-3430-4140-88cc-5c254bfb0358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\classes\interfaces">
+      <UniqueIdentifier>{8cc6cdb1-f07e-4f46-abf7-764f8b6dd91c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\classes\entity">
+      <UniqueIdentifier>{f4010e9f-2723-4dda-9f31-07c8bf55c9d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\classes\weapon">
+      <UniqueIdentifier>{6d7c05cf-569d-4f3a-bea5-60f2513d6b92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\classes\interfaces\source">
+      <UniqueIdentifier>{6a69ba2c-f375-425f-8572-24aea5ddb132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\classes\interfaces\headers">
+      <UniqueIdentifier>{2fd8ff71-7a38-4ab3-ba08-82e39e45b5ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hack">
+      <UniqueIdentifier>{983412c0-2e86-47af-8284-5cfed1a395ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hack\hooks">
+      <UniqueIdentifier>{7ae861d7-7706-4656-893c-0d4878a0cff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\utils\math">
+      <UniqueIdentifier>{a622d65d-aae2-4253-bb77-10d810d3998c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\utils\render">
+      <UniqueIdentifier>{7d1a0832-cc9b-4474-8342-aa8b9b801c00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\utils\netvar">
+      <UniqueIdentifier>{e6619adf-810b-4e9f-a296-8ba2fa7da86a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vec.h">
+      <Filter>sdk\structs\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="recvprop.h">
+      <Filter>sdk\structs\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="playerinfo.h">
+      <Filter>sdk\structs\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="trace.h">
+      <Filter>sdk\structs\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="cmd.h">
+      <Filter>sdk\structs\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>sdk\structs\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>sdk\classes\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="weapon.h">
+      <Filter>sdk\classes\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="cvar.h">
+      <Filter>sdk\structs\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="event.h">
+      <Filter>sdk\structs\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>sdk\classes\interfaces\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>sdk\classes\interfaces\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="hook.h">
+      <Filter>sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo.h">
+      <Filter>hack</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>sdk\structs\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="surface_data.h">
+      <Filter>sdk\structs\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="netchannel.h">
+      <Filter>sdk\structs\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="netvar.h">
+      <Filter>sdk\utils\netvar</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>sdk\utils\math</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>sdk\utils\render</Filter>
+    </ClInclude>
+    <ClInclude Include="memalloc.h">
+      <Filter>sdk\structs\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="viewsetup.h">
+      <Filter>sdk\structs\headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="vec.cpp">
+      <Filter>sdk\structs\source</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="cmd.cpp">
+      <Filter>sdk\structs\source</Filter>
+    </ClCompile>
+    <ClCompile Include="entity.cpp">
+      <Filter>sdk\classes\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="weapon.cpp">
+      <Filter>sdk\classes\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="client.cpp">
+      <Filter>sdk\classes\interfaces\source</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>sdk\classes\interfaces\source</Filter>
+    </ClCompile>
+    <ClCompile Include="csgo.cpp">
+      <Filter>hack</Filter>
+    </ClCompile>
+    <ClCompile Include="create_move.cpp">
+      <Filter>hack\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="color.cpp">
+      <Filter>sdk\structs\source</Filter>
+    </ClCompile>
+    <ClCompile Include="netvar.cpp">
+      <Filter>sdk\utils\netvar</Filter>
+    </ClCompile>
+    <ClCompile Include="math.cpp">
+      <Filter>sdk\utils\math</Filter>
+    </ClCompile>
+    <ClCompile Include="render.cpp">
+      <Filter>sdk\utils\render</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
